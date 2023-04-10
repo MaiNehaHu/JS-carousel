@@ -59,7 +59,6 @@ function ShiftPage(count) {
         console.log("page 1, count is -1");
       }
       break;
-
     case -2:
       {
         marginclass.style.marginLeft = "0%";

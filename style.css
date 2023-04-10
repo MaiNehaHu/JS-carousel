@@ -57,5 +57,16 @@
     right: 0;
 }
 
-
+@media all and (max-width:700px) {
+    .pics-container{
+        height: 50dvh;
+    }
+    .pics .pic{
+        height: 50dvh;
+    }
+    .buttons .left-btn,.buttons .right-btn{
+        width: 50px;
+        height: 50dvh;
+    }
+}
 
