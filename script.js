@@ -12,11 +12,7 @@ if (count === 0) {
 rightbtn.addEventListener("click", () => {
   count = count - 1;
 
-  if (count < -2) {
-    count = -2;
-  } else {
-    count = count;
-  }
+  count= (count< -2)? -2 : count;
 
   ShiftPage(count);
 });
@@ -24,11 +20,7 @@ rightbtn.addEventListener("click", () => {
 leftbtn.addEventListener("click", () => {
   count = count + 1;
 
-  if (count > 2) {
-    count = 2;
-  } else {
-    count = count;
-  }
+  count = (count>2)? 2: count;
 
   ShiftPage(count);
 });
